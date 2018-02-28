@@ -1,19 +1,6 @@
 package ds.stack;
 
 /**
- * 
- * @author prashant
- *
- */
-/**
- * @author prashant
- *
- */
-/**
- * @author prashant
- *
- */
-/**
  * @author prashant
  *
  */
