@@ -1,4 +1,4 @@
-package ds.stack;
+package com.ds.stack;
 
 /**
  * @author prashant
@@ -15,8 +15,9 @@ public interface StackIF<AnyType> {
 	/**
 	 * 
 	 * @return
+	 * @throws Exception 
 	 */
-	AnyType pop();
+	AnyType pop() throws Exception;
 
 	/**
 	 * @return

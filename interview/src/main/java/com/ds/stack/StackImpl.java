@@ -1,4 +1,4 @@
-package ds.stack;
+package com.ds.stack;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,14 +14,20 @@ public class StackImpl<AnyType> implements StackIF<AnyType> {
 	private List<AnyType> arrayList = new ArrayList<AnyType>();
 	private int size;
 
+	
 	@Override
+	public String toString() {
+		return "StackImpl [arrayList=" + arrayList + ", size=" + size + "]";
+	}
+
+
 	public void push(AnyType data) {
 		arrayList.add(data);
 		size++;
 
 	}
 
-	@Override
+	
 	public AnyType pop() {
 		// get element and delete from list
 		AnyType anyType2 = null;
@@ -35,7 +41,7 @@ public class StackImpl<AnyType> implements StackIF<AnyType> {
 		return anyType2;
 	}
 
-	@Override
+	
 	public int size() {
 		return size;
 	}

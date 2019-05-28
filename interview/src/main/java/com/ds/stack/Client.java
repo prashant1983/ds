@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ds.stack;
+package com.ds.stack;
 
 /**
  * @author prashant
@@ -23,6 +23,7 @@ public class Client {
 		System.out.println("=====>Element====>>>" + stack.pop());
 		System.out.println("=====>Element====>>>" + stack.pop());
 		System.out.println("=====>Element====>>>" + stack.pop());
+		System.out.println("=====>Element====>>>" + stack);
 
 	}
 

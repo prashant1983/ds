@@ -1,4 +1,4 @@
-package ds.stack;
+package com.ds.stack;
 
 /**
  * 
@@ -18,7 +18,7 @@ public class LinkedListStackImpl<T> implements StackIF<T> {
 		return "LinkedListStackImpl [size=" + size + ", head=" + head + "]";
 	}
 
-	@Override
+	
 	public void push(T data) {
 		// check header for null value. if its null that means header needs to
 		// formed.
@@ -39,7 +39,7 @@ public class LinkedListStackImpl<T> implements StackIF<T> {
 
 	}
 
-	@Override
+	
 	public T pop() throws Exception {
 		// what we can think of going through the linked list.
 		// start from header :) as we know that if header is null list is empty.
@@ -72,7 +72,7 @@ public class LinkedListStackImpl<T> implements StackIF<T> {
 		return head.data;
 	}
 
-	@Override
+	
 	public int size() {
 		return this.size;
 	}
